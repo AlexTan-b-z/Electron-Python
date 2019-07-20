@@ -6,7 +6,7 @@
 
 ​		[Electron](https://electronjs.org/docs)也已经比较成熟了，目前很多界面每隔的桌面程序都是Electron开发的，比如说：Github、Skype、Atom、VSCode等。
 
-​		而词篇博文主要分享Electron+Python的方式做界面开发。网上也有比较多的教程，但大部分教程里Electron和Python的通信方式要么是Http，要么是zerorpc，Http太笨重，且不太适合客户端程序；npm的zerorpc安装过程太繁琐，太多版本问题，反正我用npm安装zerorpc搞了好几天都没弄好，因此最终换其他通信方案（期间也试过谷歌的gRPC），比较后最终选择Thrift，除了性能优势外，安装及配置都比较简单。
+​		而此篇博文主要分享Electron+Python的方式做界面开发。网上也有比较多的教程，但大部分教程里Electron和Python的通信方式要么是Http，要么是zerorpc，Http太笨重，且不太适合客户端程序；npm的zerorpc安装过程太繁琐，太多版本问题，反正我用npm安装zerorpc搞了好几天都没弄好，因此最终换其他通信方案（期间也试过谷歌的gRPC），比较后最终选择Thrift，除了性能优势外，安装及配置都比较简单。
 
 ​		流程如下：
 
@@ -310,4 +310,4 @@ if __name__ == "__main__":
 
 
 
-代码已上传至[Github]()
+代码已上传至[Github](https://github.com/AlexTan-b-z/Electron-Python)
